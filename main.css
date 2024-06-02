@@ -1,14 +1,65 @@
+body{
+    font-family: Serif;
+}
 .main{
     margin-top: 300px;
+    min-height: calc(100vh - 500px);
 }
 .sloganServices{
     margin-bottom: 400px;
 }
-
+.testimonials{
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.testimonials:hover{
+    overflow-x: scroll;
+}
 .services{
     margin-top: 100px;
+    /* position: fixed; */
+    width: 100%;
 }
 
 .booking{
     margin-top: 100px;
+    min-height: calc(100vh - 150px);
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    border-top: 1px solid #e9ecef;
+    height: 150px;
+}
+.footer a {
+    color: #6c757d;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #343a40;
+}
+
+.footer {
+    font-size: 0.8rem; /* Adjust this value as needed */
+}
+
+.footer h5, .footer h6 {
+    font-size: 1rem; /* Adjust this value as needed */
+    font-weight: bold;
+}
+
+.footer p, .footer a, .footer ul, .footer li {
+    font-size: 0.85rem; /* Adjust this value as needed */
+}
+
+.facebook, .twitter {
+    border: #e9ecef;
+    border-radius: 50%;
+}
+
+/*Book an appointment*/
+.hairstyles{
+    border: solid white;
+    border-radius: 100%;
 }
