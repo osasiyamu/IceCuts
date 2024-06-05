@@ -1,6 +1,22 @@
 body{
     font-family: Serif;
 }
+a {
+    color: #B8860B;
+}
+i {
+    color: #B8860B;
+}
+.card-text {
+    font-size: large;
+}
+/*For cards*/
+.nav-pills .nav-link.active{
+    background-color: #092a4b;
+}
+.nav-link {
+    color: #092a4b;
+}
 .main{
     margin-top: 300px;
     min-height: calc(100vh - 500px);
@@ -24,6 +40,18 @@ body{
 .booking{
     margin-top: 100px;
     min-height: calc(100vh - 150px);
+}
+
+.bookingConfirmed{
+    margin-top: 120px;
+    min-height: calc(100vh - 150px);
+}
+
+.bookingConfirmed > div{
+    background-color:#0e3964;
+    border: solid;
+    border-style:ridge;
+    /* color: white; */
 }
 
 .footer {
@@ -62,4 +90,99 @@ body{
 .hairstyles{
     border: solid white;
     border-radius: 100%;
+}
+
+/*color testing styling*/
+
+/* General Styles */
+body {
+    color: #333333;
+    background-color: #FFFFFF;
+}
+
+nav {
+    background-color: #001F3F;
+}
+
+.navbar a {
+    color: #FFFFFF;
+}
+
+.navbar a:hover {
+    color: #B8860B;
+}
+
+.navbar .btn-secondary {
+    background-color: #B8860B;
+    color: #FFFFFF;
+}
+
+.navbar .btn-secondary:hover {
+    background-color: white;
+    text-decoration: underline;
+}
+
+.page {
+    color: #FFFFFF;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+.main {
+    background-color: #FFFFFF;
+}
+
+.main h1, .main h3 {
+    color: #003366;
+}
+
+.main p {
+    color: #333333;
+}
+
+.main .btn-secondary {
+    background-color: #B8860B;
+    color: #FFFFFF;
+}
+
+.booking .btn-secondary {
+    background-color: #B8860B;
+    color: #FFFFFF;
+}
+
+.bookingConfirmed .btn-secondary {
+    background-color: #B8860B;
+    color: #FFFFFF;
+}
+
+.footer {
+    background-color: #092a4b;
+    /* background-color: #003366; */
+    color: #FFFFFF;
+}
+
+.footer a {
+    color: #B8860B;
+}
+
+.card {
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+.card-title {
+    color: #003366;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #F5F5F5;
+}
+
+.testimonials .card {
+    background-color: #FFFFFF;
+}
+
+.testimonials .card-title {
+    color: #003366;
 }
