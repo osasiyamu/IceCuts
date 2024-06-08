@@ -11,7 +11,6 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <!-- <img src="your-image-url.png" width="30" height="30" alt="Brand"> -->
                 <h1 class="ms-0"><a href="index.html" style="text-decoration: none;">ICE Cuts</a></h2>
             </a>
             
@@ -50,7 +49,6 @@
                             <label for="name" class="form-label mt-1 me-3">Name</label>
                             <input type="text" class="form-control ms-3" id="name" aria-describedby="name" placeholder="e.g. Joe" style="width: 250px;">
                         </div>
-                        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
                     </div>
                     <div class="col-md-6">
                         <div class="d-flex">
@@ -78,7 +76,6 @@
                                 <option value="Finger Waves">Finger Waves - $40 - $70</option>
                             </select>
                         </div>
-                        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
                     </div>
                     <div class="col-md-6">
                         <div class="d-flex">
@@ -101,20 +98,21 @@
                             <label for="date" class="form-label mt-1 me-3">Date</label>
                             <input type="date" class="form-control" id="date" aria-describedby="emailHelp" style="width: 300px;">
                         </div>
-                        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
                     </div>
                     <div class="col-md-6">
                         <div class="d-flex ">
-                            <label for="time" class="form-label mt-1 me-5">Time</label>
-                            <input type="time" class="form-control ms-5" id="time" style="width: 100px;">
+                            <label for="availableTimes" class="form-label mt-1 me-5">Time</label>
+                            <select class="form-select" aria-label="availableTimes" style="width: 100px;" disabled>
+                                <option selected></option>
+                                <option value="AT1">AT1</option>
+                                <option value="AT2">AT2</option>
+                                <option value="AT3">AT3</option>
+                                <option value="AT4">AT4</option>
+                            </select>
                         </div>
                     </div>
                 </div>
 
-                <!-- <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div> -->
                 <div class="d-flex justify-content-end mt-5">
                     <button type="submit" class="btn btn-secondary"><a href="confirmation.html" style="text-decoration: none; color: white;">Book</a></button>
                 </div>
@@ -135,7 +133,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4 mb-1">
-                                <img src="images/hairstyles/low fade.jpeg" class="img-fluid hairstyles mt-1 p-0 me-3" alt="..." style="height: 60%;">
+                                <img src="images/hairstyles/low fade.jpeg" class="img-fluid hairstyles mt-1 p-0 me-3" alt="..." style="height: 55%;">
                             </div>
                         </div>
                     </div>
@@ -148,7 +146,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4 mb-1">
-                                <img src="images/hairstyles/afro.jpeg" class="img-fluid hairstyles mt-1 p-0 me-3" alt="..." style="height: 60%;">
+                                <img src="images/hairstyles/afro.jpeg" class="img-fluid hairstyles mt-1 p-0 me-3" alt="..." style="height: 55%;">
                             </div>
                         </div>
                     </div>
@@ -174,7 +172,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4 mb-1">
-                                <img src="images/hairstyles/cornrows.jpeg" class="img-fluid hairstyles mt-1 p-0 me-3" alt="..." style="height: 60%;">
+                                <img src="images/hairstyles/cornrows.jpeg" class="img-fluid hairstyles mt-2 p-0 me-3" alt="..." style="height: 60%;">
                             </div>
                         </div>
                     </div>
@@ -187,7 +185,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4 mb-1">
-                                <img src="images/hairstyles/twists.jpeg" class="img-fluid hairstyles mt-1 p-0 me-3" alt="..." style="height: 60%;">
+                                <img src="images/hairstyles/twists.jpeg" class="img-fluid hairstyles mt-1 p-0 me-3" alt="..." style="height: 55%;">
                             </div>
                         </div>
                     </div>
@@ -200,7 +198,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4 mb-1">
-                                <img src="images/hairstyles/bantu knots.jpeg" class="img-fluid hairstyles mt-1 p-0 me-3" alt="..." style="height: 50%;">
+                                <img src="images/hairstyles/bantu knots.jpeg" class="img-fluid hairstyles mt-2 p-0 me-3" alt="..." style="height: 45%;">
                             </div>
                         </div>
                     </div>
@@ -213,7 +211,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4 mb-1">
-                                <img src="images/hairstyles/high top fade.jpeg" class="img-fluid hairstyles mt-1 p-0 me-3" alt="..." style="height: 70%;">
+                                <img src="images/hairstyles/high top fade.jpeg" class="img-fluid hairstyles mt-1 p-0 me-3" alt="..." style="height: 60%;">
                             </div>
                         </div>
                     </div>
@@ -251,7 +249,7 @@
         
     </section>
 
-    <footer class="footer fixed-bottom mt-auto py-3">
+    <footer class="footer fixed-bottom mt-auto py-3" id="contact">
         <div class="container">
             <div class="row">
                 <div class="mt-4 col-md-3">

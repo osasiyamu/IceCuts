@@ -1,103 +1,20 @@
+/*All Pages*/
 body{
     font-family: Serif;
+    color: #333333;
+    background-color: #FFFFFF;
 }
+
 a {
     color: #B8860B;
 }
+
 i {
     color: #B8860B;
 }
+
 .card-text {
     font-size: large;
-}
-/*For cards*/
-.nav-pills .nav-link.active{
-    background-color: #092a4b;
-}
-.nav-link {
-    color: #092a4b;
-}
-.main{
-    margin-top: 300px;
-    min-height: calc(100vh - 500px);
-}
-.sloganServices{
-    margin-bottom: 400px;
-}
-.testimonials{
-    margin: 0 auto;
-    overflow-x: hidden;
-}
-.testimonials:hover{
-    overflow-x: scroll;
-}
-.services{
-    margin-top: 100px;
-    /* position: fixed; */
-    width: 100%;
-}
-
-.booking{
-    margin-top: 100px;
-    min-height: calc(100vh - 150px);
-}
-
-.bookingConfirmed{
-    margin-top: 120px;
-    min-height: calc(100vh - 150px);
-}
-
-.bookingConfirmed > div{
-    background-color:#0e3964;
-    border: solid;
-    border-style:ridge;
-    /* color: white; */
-}
-
-.footer {
-    background-color: #f8f9fa;
-    padding: 20px 0;
-    border-top: 1px solid #e9ecef;
-    height: 150px;
-}
-.footer a {
-    color: #6c757d;
-    text-decoration: none;
-}
-.footer a:hover {
-    color: #343a40;
-}
-
-.footer {
-    font-size: 0.8rem; /* Adjust this value as needed */
-}
-
-.footer h5, .footer h6 {
-    font-size: 1rem; /* Adjust this value as needed */
-    font-weight: bold;
-}
-
-.footer p, .footer a, .footer ul, .footer li {
-    font-size: 0.85rem; /* Adjust this value as needed */
-}
-
-.facebook, .twitter {
-    border: #e9ecef;
-    border-radius: 50%;
-}
-
-/*Book an appointment*/
-.hairstyles{
-    border: solid white;
-    border-radius: 100%;
-}
-
-/*color testing styling*/
-
-/* General Styles */
-body {
-    color: #333333;
-    background-color: #FFFFFF;
 }
 
 nav {
@@ -128,8 +45,60 @@ nav {
     text-decoration: underline;
 }
 
-.main {
+.card {
     background-color: #FFFFFF;
+    color: #333333;
+}
+
+.card-title {
+    color: #003366;
+}
+
+.footer {
+    font-size: 0.8rem;
+    background-color: #092a4b;
+    color: #FFFFFF;
+    padding: 20px 0;
+    border-top: 1px solid #e9ecef;
+    height: 150px;
+}
+
+.footer a {
+    color: #B8860B;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #343a40;
+}
+
+.footer h5, .footer h6 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.footer p, .footer a, .footer ul, .footer li {
+    font-size: 0.85rem;
+}
+
+.facebook, .twitter {
+    border: #e9ecef;
+    border-radius: 50%;
+}
+
+/*index.html*/
+.nav-pills .nav-link.active{
+    background-color: #092a4b;
+}
+
+.nav-link {
+    color: #092a4b;
+}
+
+.main{
+    background-color: #FFFFFF;
+    margin-top: 300px;
+    min-height: calc(100vh - 500px);
 }
 
 .main h1, .main h3 {
@@ -145,38 +114,18 @@ nav {
     color: #FFFFFF;
 }
 
-.booking .btn-secondary {
-    background-color: #B8860B;
-    color: #FFFFFF;
+.sloganServices{
+    margin-bottom: 400px;
 }
 
-.bookingConfirmed .btn-secondary {
-    background-color: #B8860B;
-    color: #FFFFFF;
-}
-
-.footer {
-    background-color: #092a4b;
-    /* background-color: #003366; */
-    color: #FFFFFF;
-}
-
-.footer a {
-    color: #B8860B;
-}
-
-.card {
-    background-color: #FFFFFF;
-    color: #333333;
-}
-
-.card-title {
-    color: #003366;
-}
-
-/* Testimonials Section */
-.testimonials {
+.testimonials{
     background-color: #F5F5F5;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.testimonials:hover{
+    overflow-x: scroll;
 }
 
 .testimonials .card {
@@ -185,4 +134,43 @@ nav {
 
 .testimonials .card-title {
     color: #003366;
+}
+
+/*service.html*/
+.services{
+    margin-top: 100px;
+    width: 100%;
+}
+
+/*booking.html*/
+.booking{
+    margin-top: 100px;
+    min-height: calc(100vh - 150px);
+}
+
+.booking .btn-secondary {
+    background-color: #B8860B;
+    color: #FFFFFF;
+}
+
+.hairstyles{
+    border: solid white;
+    border-radius: 100%;
+}
+
+/*confirmation.hmtl*/
+.bookingConfirmed{
+    margin-top: 120px;
+    min-height: calc(100vh - 150px);
+}
+
+.bookingConfirmed > div{
+    background-color:#0e3964;
+    border: solid;
+    border-style:ridge;
+}
+
+.bookingConfirmed .btn-secondary {
+    background-color: #B8860B;
+    color: #FFFFFF;
 }
